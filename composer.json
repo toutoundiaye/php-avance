@@ -1,0 +1,21 @@
+{
+    "name": "stagiaire/formation-php-avance",
+    "description": "faire un hello world en MVC",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toutou Ndiaye",
+            "email": "thiesescale@yahoo.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Dawan\\": "01hello-world-MVC/src/",
+          "Instanciation\\": "02instanciation",
+          "structural\\": "03structural"
+        }
+    },
+    "require": {
+        "symfony/debug": "^4.0"
+    }
+}
