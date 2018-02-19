@@ -1,6 +1,7 @@
 <?php
-namespace Instanciation\Factory;
+namespace Instanciation\Factory\dart;
 
-interface DartGame {
-    public function throwDart();
+interface DartGame 
+{
+    public function throwDart(int $area);
 }

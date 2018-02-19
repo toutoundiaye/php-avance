@@ -17,6 +17,6 @@ class RepositoryProxy
         if(empty($this->cache)) {
             $this->cache = $this->repository->getArticle();
         }
-        return $this->$cache;
+        return $this->cache;
     }
 }

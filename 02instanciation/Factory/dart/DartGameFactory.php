@@ -1,13 +1,18 @@
 <?php
 
-namespace Instanciation\Factory;
+namespace Instanciation\Factory\dart;
 
 class DartGameFactory
 {
-    public function __construct(){}
+    /**
+    * DartGameFactory constructor.
+    */
+    public function __construct()
+    {    
+    }
     
-    public function create(string $area): DartGame
+    public static function create($string): DartGame
     {
-        //return new 
+        return new CricketGame(); 
     }
 }

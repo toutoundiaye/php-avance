@@ -7,5 +7,5 @@ require __DIR__.'/../../vendor/autoload.php';
 $a = new ProductA();
 
 //we neeed a productB
-$b = (new ProductABBridege())->createB($a);
+$b = (new ProductABBridge())->createB($a);
 var_dump($b);

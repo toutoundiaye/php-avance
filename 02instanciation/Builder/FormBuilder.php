@@ -19,6 +19,7 @@ class FormBuilder
     
     public function createForm(): Form
     {
+        $this->form->lock();
         return $this->form;
     }
 }

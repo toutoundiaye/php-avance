@@ -9,17 +9,18 @@ final class SingletonDemo
      */
 
     private static $instance;
+
      /**
       * SingletonDemo constructor
       * private to prevent anyone to create instance
       */
     private function __construct()
-     {
+    {
 
-     } 
+    } 
      /**
       * Manage single instantiation
-      *multiple call result in reuse of same object
+      * multiple call result in reuse of same object
       *
       * @return SingletonDemo
       */

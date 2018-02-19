@@ -8,10 +8,15 @@ class Form
 
     public function addField(Field $field)
     {
-        if ($this->locked){
-            
+        if ($this->locked) {
+            throw new \Exception('You cannot alter a form already build');
         }
-        return $this->fields[] = $field;
+        $this->fields[] = $field;
+    }
+
+    public function lock()
+    {
+        $this->locked = true;
     }
    
 }

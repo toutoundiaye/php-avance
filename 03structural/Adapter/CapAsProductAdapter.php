@@ -1,7 +1,7 @@
 <?php
 namespace structural\Adapter;
 
-class CapProductAdapter implements Product
+class CapAsProductAdapter implements Product
 {
     private $cap;
     /**
