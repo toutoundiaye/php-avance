@@ -12,10 +12,14 @@
         "psr-4": {
           "Dawan\\": "01hello-world-MVC/src/",
           "Instanciation\\": "02instanciation",
-          "structural\\": "03structural"
+          "structural\\": "03structural",
+          "behavior\\": "04behavior",
+          "di\\": "05di",
+          "pdf\\": "06html2pdf"
         }
     },
     "require": {
-        "symfony/debug": "^3.4"
+        "symfony/debug": "^3.4",
+        "spipu/html2pdf": "^5.1"
     }
 }
