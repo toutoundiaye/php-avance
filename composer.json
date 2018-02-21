@@ -15,11 +15,17 @@
           "structural\\": "03structural",
           "behavior\\": "04behavior",
           "di\\": "05di",
-          "pdf\\": "06html2pdf"
+          "pdf\\": "06html2pdf",
+          "test\\": "10tests"
         }
     },
     "require": {
+        "php":"^7.1",
+        "ext-soap":"*",
         "symfony/debug": "^3.4",
         "spipu/html2pdf": "^5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
     }
 }
