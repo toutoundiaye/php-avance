@@ -5,7 +5,6 @@ use Spipu\Html2Pdf\Html2Pdf;
 
 require __DIR__.'/../vendor/autoload.php';
 $docWeb = file_get_contents(__DIR__.'/demo.html');
-ob_start();
 
 $html2Pdf = new Html2Pdf('P','A4','fr',true);
 $html2Pdf->setDefaultFont('Arial');
