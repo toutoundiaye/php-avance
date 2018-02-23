@@ -8,4 +8,9 @@ class ArithmeticCalculator
     {
         return $a+$b;
     }
+
+    public function product($a, $b)
+    {
+        return $a*$b;
+    }
 }
